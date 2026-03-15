@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(asdf current:*)",
+      "Bash(asdf plugin list:*)",
+      "Bash(claude --version:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(brew install:*)",
+      "Bash(brew search:*)",
+      "Bash(asdf reshim:*)",
+      "Bash(rm:*)",
+      "Bash(hash -r:*)",
+      "Bash(echo:*)",
+      "Bash(test -f:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

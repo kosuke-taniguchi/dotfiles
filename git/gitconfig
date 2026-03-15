@@ -1,0 +1,25 @@
+[url "ssh://git@github.com:"]
+    	insteadOf = https://github.com
+[alias]
+	logf = log --pretty=format:'[%ad %Cgreen%ar%Creset] %C(yellow)%h%Creset by"`%C(cyan ul)%an%Creset`" %s %Cblue%d' --date=format:'%Y-%m-%d %H:%M' --graph
+	ss = status
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	pl = pull
+	ada = add .
+	br = branch
+	brd = branch -D
+	nbr = !git --no-pager branch --sort=committerdate
+        shu = stash -u
+        shp = stash pop 0
+        shl = stash list
+	wa = "!sh -c 'branch=\"$1\"; cdname=$(basename \"$PWD\"); dirbranch=$(printf %s \"$branch\" | sed \"s|/|-|g\"); mkdir -p ../worktree/$cdname; git show-ref --verify --quiet refs/heads/\"$branch\" || git branch \"$branch\"; git worktree add ../worktree/$cdname/$dirbranch \"$branch\"' -"
+	wr = "!sh -c 'branch=\"$1\"; cdname=$(basename \"$PWD\"); dirbranch=$(printf %s \"$branch\" | sed \"s|/|-|g\"); git worktree remove ../worktree/$cdname/$dirbranch' -"
+[user]
+	name = kosuke-taniguchi
+	email = guchan.muscle.forerver@gmail.com
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main

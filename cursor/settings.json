@@ -1,0 +1,47 @@
+{
+    "editor.minimap.enabled": false,
+    "json.schemas": [],
+    "files.autoSave": "afterDelay",
+    "go.coverOnSingleTest": true,
+    "go.coverOnSingleTestFile": true,
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.formatTool": "gofumpt",
+    "git.autofetch": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "window.zoomLevel": -1,
+    "[protoc]": {
+        "editor.formatOnSave": true
+    },
+    "clang-format.language.proto.style": "{ IndentWidth: 2, BasedOnStyle: Google }",
+    "editor.formatOnSave": true,
+    "[apiblueprint]": {
+        "editor.formatOnSave": false
+    },
+    "cSpell.languageSettings": [],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "githubPullRequests.pullBranch": "never",
+    "workbench.editor.enablePreview": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.colorTheme": "Dracula Darcula",
+    "files.insertFinalNewline": true,
+    "snowflake.connectionsConfigFile": "/Users/s20812/.snowflake/connections.toml",
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "claudeCode.preferredLocation": "panel"
+}

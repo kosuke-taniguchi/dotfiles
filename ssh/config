@@ -4,7 +4,7 @@
 Include ~/.orbstack/ssh/config
 
 Host github.com
-  IdentityFile ~/.ssh/id_rsa
+  IdentityFile ~/.ssh/id_ed25519
   User git
 
 Host k8s1

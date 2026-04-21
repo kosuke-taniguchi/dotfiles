@@ -31,7 +31,6 @@
     "githubPullRequests.pullBranch": "never",
     "workbench.editor.enablePreview": false,
     "diffEditor.ignoreTrimWhitespace": true,
-    "workbench.colorTheme": "Dracula Darcula",
     "files.insertFinalNewline": true,
     "snowflake.connectionsConfigFile": "/Users/s20812/.snowflake/connections.toml",
     "[dockercompose]": {
@@ -43,5 +42,6 @@
     "[github-actions-workflow]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "claudeCode.preferredLocation": "panel"
+    "claudeCode.preferredLocation": "panel",
+    "workbench.colorTheme": "Dracula Theme Soft"
 }

@@ -15,11 +15,11 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # --- Google Cloud SDK (path / completion) ---
-if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then
-  . "$HOME/google-cloud-sdk/path.zsh.inc"
+if [ -f "/opt/homebrew/share/google-cloud-sdk/path.zsh.inc" ]; then
+  . "/opt/homebrew/share/google-cloud-sdk/path.zsh.inc"
 fi
-if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then
-  . "$HOME/google-cloud-sdk/completion.zsh.inc"
+if [ -f "/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc" ]; then
+  . "/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc"
 fi
 
 # --- asdf (早めに initialze。GOROOTは設定しない) ---

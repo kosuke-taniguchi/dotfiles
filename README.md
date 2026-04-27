@@ -31,6 +31,7 @@ git/gitconfig           -> ~/.gitconfig
 git/ignore              -> ~/.config/git/ignore
 ssh/config              -> ~/.ssh/config
 wezterm/wezterm.lua     -> ~/.config/wezterm/wezterm.lua
+ghostty/config          -> ~/.config/ghostty/config
 warp/keybindings.yaml   -> ~/.warp/keybindings.yaml
 cursor/keybindings.json -> ~/Library/Application Support/Cursor/User/keybindings.json
 cursor/settings.json    -> ~/Library/Application Support/Cursor/User/settings.json

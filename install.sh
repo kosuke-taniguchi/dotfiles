@@ -73,6 +73,9 @@ chmod 600 "$HOME/.ssh/config"
 # wezterm
 link_file "$DOTFILES_DIR/wezterm/wezterm.lua" "$HOME/.config/wezterm/wezterm.lua"
 
+# ghostty
+link_file "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
+
 # warp
 link_file "$DOTFILES_DIR/warp/keybindings.yaml" "$HOME/.warp/keybindings.yaml"
 

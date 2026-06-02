@@ -43,5 +43,6 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "claudeCode.preferredLocation": "panel",
-    "workbench.colorTheme": "Dracula Theme Soft"
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "window.autoDetectColorScheme": false
 }

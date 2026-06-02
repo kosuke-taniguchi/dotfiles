@@ -36,7 +36,6 @@
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true
   },
-  "skipAutoPermissionPrompt": true,
   "feedbackSurveyState": {
     "lastShownTime": 1753970032469
   },

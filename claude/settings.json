@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(curl:*)"
-    ]
+    ],
+    "defaultMode": "auto"
   },
   "hooks": {
     "Stop": [
@@ -32,10 +33,11 @@
     "type": "command",
     "command": "~/.claude/statusline.js"
   },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true
+  },
   "feedbackSurveyState": {
     "lastShownTime": 1753970032469
   },
-  "enabledPlugins": {
-    "gopls-lsp@claude-plugins-official": true
-  }
+  "model": "opus[1m]"
 }

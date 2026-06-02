@@ -19,7 +19,12 @@
 [user]
 	name = kosuke-taniguchi
 	email = guchan.muscle.forerver@gmail.com
+	signingkey = /Users/s20812/.ssh/id_ed25519.pub
 [credential]
 	helper = osxkeychain
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

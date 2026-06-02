@@ -36,6 +36,21 @@ alias 'k-contexts'='kubectl config get-contexts'
 alias 'k-current'='kubectl config current-context'
 alias k9r='k9s --readonly'
 
+# --- DevContainer helpers ---
+# Attach a shell to the DevContainer for the current (or given) workspace folder.
+# Usage: devshell           # uses $PWD as the workspace folder
+#        devshell <path>    # specify workspace folder explicitly
+devshell() {
+  local folder="${1:-$PWD}"
+  local cid
+  cid="$(docker ps -q --filter "label=devcontainer.local_folder=${folder}")"
+  if [[ -z "$cid" ]]; then
+    echo "No devcontainer running for: $folder" >&2
+    return 1
+  fi
+  docker exec -it -u vscode -w /home/vscode/workspaces/app "$cid" bash
+}
+
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/s20812/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

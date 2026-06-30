@@ -36,8 +36,10 @@
   "enabledPlugins": {
     "gopls-lsp@claude-plugins-official": true
   },
+  "skipWorkflowUsageWarning": true,
+  "theme": "dark",
+  "skipAutoPermissionPrompt": true,
   "feedbackSurveyState": {
     "lastShownTime": 1753970032469
-  },
-  "model": "opus[1m]"
+  }
 }
